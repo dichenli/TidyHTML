@@ -3,3 +3,5 @@ tests/
 **/*.bak
 tidyHTML.zip
 to do list.txt
+__MACOSX
+.DS_Store
