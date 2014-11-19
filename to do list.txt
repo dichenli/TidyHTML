@@ -1,0 +1,4 @@
+7. lower case tag names
+8. word strip, lower case
+9. check file output random names?
+9. 检查需要call is_tag 的时候是否应该call is_start_tag?之类的，避免处理empty content tag的例外

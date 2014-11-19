@@ -1,0 +1,22 @@
+['<!DOCTYPE = html>\n', '<html>', '\n', '<head>','<title>','testfile','</title>','</head>','\n','<body>','\n','<h1>','This is %< /h1>\n','<na>','\n','a','</na>','\n','bb		ccccccccc\n','\n','dd','</h1>','\n','<f \nt style="color:red">','abc','</f	t>','\n','<secondtag>','def','</secondtag>','\n','</body>','\n','</html>']
+['<!DOCTYPE = html>\n', '<html>', '\n', '  <head>', '<title>', 'testfile', '</title>', '</head>', '\n', '  <body>', '\n', '    <h1>', 'This is %< /h1>\n', '      <na>', '\n', '        a\n', '      </na>', '\n', '      bb\t\tccccccccc\n', '      ', 'dd\n', '    </h1>', '\n', '    <f \nt style="color:red">', 'abc\n', '    </f\tt>', '\n', '    <secondtag>', 'def', '</secondtag>', '\n', '  </body>', '\n', '</html>']
+['<!DOCTYPE = html>\n', '<html>', '\n', '<head>', '<title>', 'testfile', '</title>', '</head>', '\n', '<body>', '\n', '<h1>', 'This is %< /h1>\n', '<na>', '\n', 'a', '</na>', '\n', 'bb\t\tccccccccc\n', '\n', 'dd', '</h1>', '\n', '<f \nt style="color:red">', 'abc', '</f\tt>', '\n', '<secondtag>', 'def', '</secondtag>', '\n', '</body>', '\n', '</html>']
+<!DOCTYPE = html>
+<html>
+  <head><title>testfile</title></head>
+  <body>
+    <h1>This is %< /h1>
+      <na>
+        a
+      </na>
+      bb\t\tccccccccc\
+      dd
+    </h1>
+    <f \nt style="color:red">abc
+    </f\tt>
+    <secondtag>def</secondtag>
+  </body>
+</html>
+
+
+<><><><><>
