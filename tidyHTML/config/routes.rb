@@ -12,7 +12,7 @@
 #
 
 Rails.application.routes.draw do
-  get 'tidyhtmls/main', to: 'tidyhtmls#convert'
+  post 'tidyhtmls/main', to: 'tidyhtmls#convert'
   root to: 'tidyhtmls#convert'
   #resources :tidyhtmls
   # The priority is based upon order of creation: first created -> highest priority.
