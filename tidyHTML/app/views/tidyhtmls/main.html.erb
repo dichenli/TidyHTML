@@ -1,0 +1,16 @@
+<h1>Tidy Html</h1>
+
+<%= form_tag url_for(controller: 'tidyhtmls', action: 'convert'), method: :get do %>
+    <div class="field">
+      <%= label_tag 'origin', 'Messy HTML' %><br>
+      <%= text_area_tag 'origin', "#{@origin}", {id: 'origin', placeholder: "Paste HTML here"} %>
+    </div>
+    <div class="field">
+      <%= label_tag 'converted', 'Tidy HTML' %><br>
+      <%= text_area_tag 'converted', "#{@converted}", {id: 'converted', placeholder: "Tidy HTML goes here"} %>
+    </div>
+    <div class="actions">
+      <%= submit_tag "Tidy it up!"  %>
+    </div>
+<% end %>
+
