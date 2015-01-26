@@ -1,5 +1,4 @@
-#CIT 591 Assignment 4
-#Dichen Li and Siyang Shu
+
 
 #Tidy HTML
 
